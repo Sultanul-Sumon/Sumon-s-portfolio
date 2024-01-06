@@ -44,10 +44,30 @@ nav ul {
  nav li {
   list-style: none;
   margin-right: 50px;
+  margin: 0 200px;
 } 
 nav a {
   text-decoration: none;
   color: #474747;
+}
+
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+
+.profile-picture {
+  width: 584px;
+  height: 676px;
+}
+
+
+
+
+/* header section. */
+header {
+  background-color: #fff;
 }
 
 .btn-primary {
