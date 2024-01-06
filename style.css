@@ -113,7 +113,10 @@ header {
 
 
 /* main section styles starts here*/
-
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 /* main section styles ends here*/
 
 
@@ -132,5 +135,17 @@ header {
   font-weight: 700;
 }
 /*about section style ends here*/
+
+/* About info sec. style stars here. */
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-info {
+  text-align: center;
+}
+/* About info sec. style ends here. */
 
 
